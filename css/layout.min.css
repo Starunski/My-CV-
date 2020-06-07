@@ -87,7 +87,7 @@ html a {
 p {
   font-size: 15px;
   font-weight: 400;
-  color: #a6a7aa;
+  color: #6A769B;
   margin-bottom: 15px;
 }
 em,
@@ -124,7 +124,7 @@ span {
 }
 span {
   font-size: 14px;
-  color: #bfc1c7;
+  color: #673ab7;
 }
 h1,
 h2,
@@ -323,7 +323,7 @@ fieldset[disabled] .btn-theme {
 }
 .promo-block .promo-block-title {
   font-size: 70px;
-  color: #fff;
+  color:grey;
   line-height: 1;
 }
 @media (max-width: 480px) {
@@ -333,7 +333,7 @@ fieldset[disabled] .btn-theme {
 }
 .promo-block .promo-block-text {
   font-size: 25px;
-  color: #fff;
+  color: rgb(141, 139, 139);
 }
 .promo-block .promo-block-divider {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -1177,7 +1177,13 @@ fieldset[disabled] .btn-theme {
 }
 .footer-social-link i{
     color: #81848f;
+    list-style: none;
 }
+.footer-social-link .list-inline{
+  display: flex;
+}
+
+
 .footer-social-link i:hover{
     color: rgb(56, 56, 56);
 }

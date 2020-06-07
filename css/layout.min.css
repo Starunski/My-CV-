@@ -431,6 +431,7 @@ fieldset[disabled] .btn-theme {
 .header .logo-img,
 .header .logo-img-main,
 .header .logo-wrap {
+  
   display: inline-block;
 }
 .work .work-popup-content-divider {
@@ -563,7 +564,7 @@ fieldset[disabled] .btn-theme {
   line-height: 65px;
 }
 .header .logo-wrap {
-  padding: 15px 0;
+  padding: 30px 10px;
 }
 .header .logo-img {
   width: 64px;
@@ -834,7 +835,7 @@ fieldset[disabled] .btn-theme {
   color: #fafafa !important;
 }
 .bg-color-base {
-  background: #17bed2 !important;
+  background: #2297ff94 !important;
 }
 .bg-color-white {
   background: #fff !important;
